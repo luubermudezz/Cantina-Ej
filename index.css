@@ -1,0 +1,82 @@
+/* Reset CSS básico para limpiar estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .address, header .phone {
+    font-size: 1.2rem;
+}
+
+header .opening-hours {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Estilos para la sección del menú */
+.menu {
+    padding: 20px;
+    background-color: #FFFFCC;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.menu ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la sección de especiales */
+.specials {
+    padding: 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.specials h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.specials p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #008000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
